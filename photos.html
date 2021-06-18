@@ -3,7 +3,7 @@
 <style>
 body {
 background-color: #2b2b2b;
-padding-bottom: 20px;
+margin: 20px 10%;
 }
 a {
   color: #777;
@@ -16,6 +16,13 @@ a:hover {
  color: #AAA3A1; 
  font-style: italic;
 }
+table {
+  width: 800px;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
 * {
   box-sizing: border-box;
 }
@@ -26,7 +33,7 @@ a:hover {
 }
 div.gallery {
   float: left;
-  width: 24%;
+  width: 188px;
   height: auto;
   margin: 5px;
   border: 1px solid #ccc;
@@ -49,26 +56,27 @@ div.desc {
 </head>
 <body>
 
-<center><img src="kvlt.jpg" width="600" height="300"></center>
+<center><img src="kvlt.jpg" width="800"></center>
+<table class="center"><tr><td>
 <div class="clearfix">
 
 <div class="gallery">
   <a target="_blank" href="ewkiss.jpg">
-    <img src="ewkiss.jpg" alt="Cooties" width="300" height="300">
+    <img src="ewkiss.jpg" alt="Cooties">
   </a>
   <div class="desc">Clayton caught my cooties</div>
 </div>
 
 <div class="gallery">
   <a target="_blank" href="ring.jpg">
-    <img src="ring.jpg" alt="Grandma Browne's Ring" width="300" height="275">
+    <img src="ring.jpg" alt="Grandma Browne's Ring">
   </a>
   <div class="desc">We got engaged on May 5, 2021</div>
 </div>
 
 <div class="gallery">
   <a target="_blank" href="samhain2020.jpg">
-    <img src="samhain2020.jpg" alt="First picture together" width="300" height="250">
+    <img src="samhain2020.jpg" alt="First picture together">
   </a>
   <div class="desc">Samhain ~ October 31, 2020</div>
 </div>
@@ -79,8 +87,8 @@ div.desc {
   </a>
   <div class="desc">Our fur daughter</div>
 </div>
-
 </div>
+</td></tr></table>
 <br>
 <p>
 <center><a href="index.html">Return</a></center>
