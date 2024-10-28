@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+div{
+  padding: 100px;
+}
+
+</head>
+<body>
+
+<h2>Wishlist</h2>
+
+<div>
+<ul>
+  <li> Battat Active Toys, 12M+
+  <li> Montessori Walker
+</ul>
+
+
+</div>
+
+</body>
+</html>
